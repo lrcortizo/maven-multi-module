@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <PEOPLE name="John" surname="Smith" phone="555-112233"/>
+    <PEOPLE name="Mary" surname="Doe" phone="555-223344"/>
+    <PEOPLE name="Foo" surname="Bar" phone="555-334455"/>
+    <PEOPLE name="Loren" surname="Ipsum" phone="555-445566"/>
+</dataset>
