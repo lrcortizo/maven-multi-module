@@ -12,14 +12,14 @@ import es.uvigo.esei.xcs.composite.logic.PeopleFacade;
 public class PersonManager {
 	public static void main(String[] args) {
 		// H2 database
-		final String url = "jdbc:h2:./target/composite";
-		final String user = "sa";
-		final String password = "";
+//		final String url = "jdbc:h2:./target/composite";
+//		final String user = "sa";
+//		final String password = "";
 		
 		// Derby database
-//		final String url = "jdbc:derby:target/composite;create=true";
-//		final String user = "";
-//		final String password = "";
+		final String url = "jdbc:derby:target/composite;create=true";
+		final String user = "";
+		final String password = "";
 		
 		try (final Connection connection = DriverManager.getConnection(url, user, password)) {
 			final PeopleFacade facade = new PeopleFacade(connection);
