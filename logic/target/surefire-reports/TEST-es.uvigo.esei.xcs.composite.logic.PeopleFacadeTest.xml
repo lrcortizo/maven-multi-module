@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" time="1.35" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" time="1.82" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.181-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/luis/XCS/maven-multi-module/logic"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/luis/XCS/maven-multi-module"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/luis/XCS/maven-multi-module/logic"/>
+    <property name="user.dir" value="/home/luis/XCS/maven-multi-module"/>
     <property name="java.runtime.version" value="1.8.0_181-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
@@ -61,9 +61,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testGetByCompleteName" time="0.922"/>
-  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testList" time="0.127"/>
-  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testGetByPhone" time="0.115"/>
-  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testCreate" time="0.087"/>
-  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testDelete" time="0.099"/>
+  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testGetByCompleteName" time="1.417"/>
+  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testList" time="0.096"/>
+  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testGetByPhone" time="0.188"/>
+  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testCreate" time="0.073"/>
+  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testDelete" time="0.046"/>
 </testsuite>
