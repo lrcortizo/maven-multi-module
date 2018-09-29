@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" time="1.82" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" time="3.172" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -61,9 +61,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testGetByCompleteName" time="1.417"/>
-  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testList" time="0.096"/>
-  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testGetByPhone" time="0.188"/>
-  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testCreate" time="0.073"/>
-  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testDelete" time="0.046"/>
+  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testGetByCompleteName" time="2.734"/>
+  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testList" time="0.11"/>
+  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testGetByPhone" time="0.195"/>
+  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testCreate" time="0.082"/>
+  <testcase classname="es.uvigo.esei.xcs.composite.logic.PeopleFacadeTest" name="testDelete" time="0.051"/>
 </testsuite>

@@ -17,9 +17,12 @@ public class PersonManager {
 //		final String password = "";
 		
 		// Derby database
-		final String url = "jdbc:derby:target/composite;create=true";
-		final String user = "";
-		final String password = "";
+//		final String url = "jdbc:derby:target/composite;create=true";
+//		final String user = "";
+//		final String password = "";
+		final String url = System.getProperty("db.url");
+		final String user = System.getProperty("db.login");
+		final String password = System.getProperty("db.password");
 		
 		try (final Connection connection = DriverManager.getConnection(url, user, password)) {
 			final PeopleFacade facade = new PeopleFacade(connection);

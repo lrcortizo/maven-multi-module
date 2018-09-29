@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Fri Sep 28 17:46:40 CEST 2018:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0166-20dc-4cea-0000058b3530 
-on database directory /home/luis/XCS/maven-multi-module/view/target/composite with class loader java.net.URLClassLoader@5efc1271 
+Sat Sep 29 17:01:45 CEST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0166-25d9-891c-0000058eeb88 
+on database directory /home/luis/XCS/maven-multi-module/view/target/composite with class loader java.net.URLClassLoader@2df32bae 
 Loaded from file:/home/luis/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_181-b13
